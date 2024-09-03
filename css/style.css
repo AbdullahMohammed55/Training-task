@@ -1,0 +1,867 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header
+{
+    width: 100%;
+    background-color: rgba(15, 163, 163, 0.81);
+    display: flex;
+    justify-content: space-around;
+}
+.header-logo img
+{
+    width: 160px;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+
+.navbar-list
+{
+    display: flex;
+    list-style: none;
+}
+.navbar-list .list-item
+{
+    margin: 50px 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.list-item a
+{
+    text-decoration: none;
+    color: white;
+}
+a.list-link-one
+{
+    background-color: rgba(12, 167, 141, 0.945);
+    padding: 14px 25px;
+    box-shadow: 0  4px 5px 2px black;
+}
+
+.container-one
+{
+    /* margin: 35px 0; */
+    padding: 35px 0;
+}
+.text-header
+{
+    font-size: 1.6rem;
+    padding: 5px 0;
+    text-transform: capitalize;
+    color: white;
+}
+.container-one span
+{
+    display: block;
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+.sec-one
+{
+    background-image: url(../images/home12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -35px;
+}
+.text-sec
+{
+    width: 25%;
+    transform: translate(70%,150%);
+}
+.text-sec .title-sec
+{
+    font-size: 2.5rem;
+    color: white;
+    margin: 35px 0;
+    text-transform: capitalize;
+}
+.text-sec .pragraph-sec
+{
+    color: white;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.button-sec
+{
+    transform: translate(17%, 630%);
+}
+.btn-sec-one
+{
+    background-color: rgba(13, 206, 206, 0.789);
+    font-size: 1.4rem;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn-sec-two
+{
+    background-color: rgba(202, 136, 50, 0.781);
+    font-size: 1.4rem;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.sec-two
+{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.artic-sec-two
+{
+    width: 435px;
+}
+.artic-title
+{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 20px;
+}
+.artic-pragraph
+{
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.group-text
+{
+    margin-top: 15px;
+}
+.first-elem
+{
+    margin: 8px;
+}
+.group-text .sec-two-span-one
+{
+    font-size: 1.3rem;
+    color: rgba(29, 166, 120, 0.812);
+    display: inline-block;
+}
+.group-text .sec-two-header-one
+{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 9px;
+}
+.second-elem
+{
+    margin: 8px;
+}
+.sec-two-span-two
+{
+    font-size: 1.3rem;
+    display: inline-block;
+    color: rgba(29,166,120,0.812);
+}
+.sec-two-header-two
+{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 9px;
+}
+.third-elem
+{
+    margin: 8px;
+}
+.sec-two-span-three
+{
+    font-size: 1.3rem;
+    display: inline-block;
+    color: rgba(29,166,120,0.812);
+}
+.sec-two-header-three
+{
+    font-size: 1.3rem;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 9px;
+}
+.four-elem
+{
+    margin: 8px;
+}
+.sec-two-span-four
+{
+    font-size: 1.3rem;
+    display: inline-block;
+    color: rgba(29,166,120,0.812);
+}
+.sec-two-header-four
+{
+    font-size: 1.3rem;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 9px;
+}
+.image-sec-two
+{
+    margin-left: 150px;
+    position: relative;
+}
+.sec-two-image-one
+{
+    width: 500px;
+    height: 550px;
+    border-radius: 15px;
+}
+.sec-two-image-two
+{
+    width: 280px;
+    height: 250px;
+    border-radius: 15px;
+    position: absolute;
+    top: 290px;
+    left: -35px;
+}
+.text-describ
+{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: black;
+    padding: 2px;
+    position: absolute;
+    top: 450px;
+    left: -20px;
+    width: 250px;
+}
+
+.sec-three
+{
+    background-image: url(../images/panoramic-house-29-1536x854.jpg);
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 150px 0;
+}
+.title-sec-three
+{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: capitalize;
+    transform: translate(7%,230px);
+    margin: 30px;
+}
+.pragraph-sec-three
+{
+    font-size: 1.3rem;
+    width: 520px;
+    color: white;
+    transform: translate(27%,250px);
+    margin: 20px;
+}
+.btn-sec-three
+{
+    background-color: rgba(207, 180, 29, 0.882);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 13px;
+    transform: translate(110%,280px);
+    cursor: pointer;
+}
+.header-describ
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title-sec-four
+{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.pragraph-sec-four
+{
+    font-size: 1.2rem;
+    width: 885px;
+    margin: auto;
+}
+.sec-four
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-group-ele
+{
+    /* background-color: rgba(47, 50, 50, 0.3); */
+    background-color: rgba(255, 255, 255, 0.915);
+    box-shadow: 0 2px 2px  black;
+    height: 520px;
+}
+.second-group-ele
+{
+    background-color: rgba(255,255,255, 0.915);
+    box-shadow: 0 2px 2px 0 black;
+    height: 520px;
+}
+.third-group-ele
+{
+    background-color: rgba(255,255,255, 0.915);
+    box-shadow: 0 2px 2px 0 black;
+    height: 520px;
+}
+.first-group-ele img,.second-group-ele img, .third-group-ele img
+{
+    width: 400px;
+    height: 280px;
+}
+.first-group-ele .text-descrip,.second-group-ele .text-descrip,.third-group-ele .text-descrip
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 20px 0;
+    padding: 10px;
+}
+.first-group-ele .pragraph-descrip, .second-group-ele .pragraph-descrip , .third-group-ele .pragraph-descrip
+{
+    font-size: 1.3rem;
+    width: 350px;
+    padding: 10px;
+}
+.link-first-group, .link-second-group, .link-third-group
+{
+    font-size: 1.3rem;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(22, 201, 166, 0.822);
+    margin: 0 7px 0 0;
+}
+.first-group-ele .forward-icon, .second-group-ele .forward-icon , .third-group-ele .forward-icon
+{
+    font-size: 1.2rem;
+    color: rgba(22, 201, 166, 0.822);
+}
+.sec-five
+{
+    background-color: antiquewhite;
+    margin: 70px 0;
+}
+.cont-sec-five
+{
+    background-image: url(../images/engineer-home.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 85vh;
+}
+.text-sec-five
+{
+    background-color: rgba(8, 8, 8, 0.561);
+    width: 800px;
+    transform: translate(570px, 300px);
+    border-radius: 15px;
+}
+.title-sec-five
+{
+    font-size: 2.5rem;
+    color: white;
+    padding: 15px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.pragraph-sec-five
+{
+    font-size: 1.5rem;
+    color: white;
+    padding: 15px;
+    line-height: 1.9rem;
+}
+.contunier-five
+{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 10px;
+}
+.text-cont-five
+{
+    width: 420px;
+    margin-left: 110px;
+}
+.text-cont-five img
+{
+    width: 70px;
+    height: 70px;
+    border-radius:  20px; 
+}
+.text-cont-five .text-cont-sec-five
+{
+    font-size: 3.2rem;
+    text-transform: capitalize;
+}
+.text-cont-five .pragraph-sec-five
+{
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: 20px;
+}
+.first-card
+{
+    border: 3px solid rgba(15, 179, 160, 0.843);
+    border-radius: 15px;
+    width: 400px;
+    height: 470px;
+    margin-left: 110px;
+}
+.first-card img
+{
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 25px;    
+}
+.first-card .head-card
+{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.first-card .pragraph-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.first-card .pragraph-card span
+{
+    text-decoration: underline;
+}
+.first-card .link-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(29, 166, 120, 0.812);
+}
+.first-card .forward-icon
+{
+    font-size: 1.3rem;
+    color: rgba(29,166,120,0.812);
+}
+
+.second-card
+{
+    border: 3px solid rgba(15, 179, 160, 0.843);
+    border-radius: 15px;
+    width: 400px;
+    height: 470px;
+}
+.second-card img
+{
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 25px;    
+}
+.second-card .head-card
+{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.second-card .pragraph-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 380px;
+}
+.second-card .link-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(29, 166, 120, 0.812);
+}
+.second-card .forward-icon
+{
+    font-size: 1.3rem;
+    color: rgba(29,166,120,0.812);
+}
+
+
+.third-card
+{
+    border: 3px solid rgba(15, 179, 160, 0.843);
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    grid-column: 2 / 3;
+    margin-left: 110px;
+}
+.third-card img
+{
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 25px;    
+}
+.third-card .head-card
+{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.third-card .pragraph-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.third-card .pragraph-card span
+{
+    text-decoration: underline;
+}
+.third-card .link-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(29, 166, 120, 0.812);
+}
+.third-card .forward-icon
+{
+    font-size: 1.3rem;
+    color: rgba(29,166,120,0.812);
+}
+
+.four-card
+{
+    border: 3px solid rgba(15, 179, 160, 0.843);
+    border-radius: 15px;
+    width: 400px;
+    
+}
+.four-card img
+{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;    
+}
+.four-card .head-card
+{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.four-card .pragraph-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.four-card .pragraph-card span
+{
+    text-decoration: underline;
+}
+.four-card .link-card
+{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(29, 166, 120, 0.812);
+}
+.four-card .forward-icon
+{
+    font-size: 1.3rem;
+    color: rgba(29,166,120,0.812);
+}
+.sec-six
+{
+    margin-bottom: 110px;
+}
+.title-sec-six
+{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.pragraph-sec-six
+{
+    text-align: center;
+    font-size: 1.4rem;
+    color: gray;
+}
+.container-six
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.group-sec-one, .group-sec-two , .group-sec-third
+{
+    border: 2px solid rgb(17, 155, 120);
+    border-radius: 15px;
+    
+}
+.group-sec-one img , .group-sec-two img, .group-sec-third img
+{
+    width: 150px;
+}
+.group-sec-one .head-group-sec , .group-sec-two .head-group-sec , .group-sec-third .head-group-sec
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.group-sec-one .pragraph-group-sec , .group-sec-two .pragraph-group-sec, .group-sec-third .pragraph-group-sec
+{
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 400px;
+}
+
+.sec-seven
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px 0;
+}
+.text-sec-seven
+{
+    width: 370px;
+}
+.text-sec-seven .quote-icon
+{
+    font-size: 2.7rem;
+    color: rgb(20, 183, 192);
+    margin: 15px 20px;
+    padding: 5px;
+}
+.text-sec-seven .title-sec-seven
+{
+    font-size: 2.7rem;
+    margin: 10px 20px;
+    padding: 5px;
+}
+.pragraph-sec-seven
+{
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 10px 20px;
+}
+.container-third-sec
+{
+    background-color: rgba(89, 241, 203, 0.261);
+    border-radius: 15px;
+}
+.group-text-sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+.list-third-sec
+{
+    list-style: circle;
+    margin-left: 30px;
+    display: flex;
+    margin: 35px;
+}
+.list-third-sec .item-list-third
+{
+    font-size: 1.7rem;
+    margin-left: 25px;
+}
+.title-sec-third
+{
+    font-size: 1.2rem;
+    color: rgba(67, 223, 223, 0.792);
+    margin: 35px;
+}
+.pragraph-sec-third
+{
+    width: 650px;
+    font-size: 2.2rem;
+    margin: 30px;
+}
+.container-fourd-sec
+{
+    display: flex;
+    margin-top: 60px;
+    position: relative;
+}
+.container-fourd-sec img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.text-name-prog
+{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin: 30px 0;
+    display: inline-block;
+}
+.pragraph-descrip-prog
+{
+    font-size: 1.3rem;
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    display: inline-block;
+}
+.next-icon 
+{
+    font-size: 1.7rem;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    background-color: rgba(205, 200, 200, 0.506);
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.per-icon
+{
+    font-size: 1.7rem;
+    position: absolute;
+    left: 520px;
+    top: 50px;
+    background-color: rgba(205,200,200,0.506);
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer
+{
+    background-color: rgba(4, 17, 43, 0.669);
+    margin: 90px 0;
+    height: 100%;
+}
+.first-sec-footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.first-sec-footer img
+{
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    margin: 35px 35px 20px 35px;
+}
+.text-footer
+{
+    font-size: 1.6rem;
+    padding: 10px;
+    margin: 150px 100px 30px 100px;
+    color: white;
+    
+}
+.container-footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sec span
+{
+    font-size: 1.4rem;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 50px 0 10px 30px;
+    color: white;
+}
+.footer-search
+{
+    position: relative;
+    margin: 0 30px 30px 30px;
+}
+.footer-search input
+{
+    font-size: 1.7rem;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 500px;
+}
+.footer-search .btn-footer
+{
+    font-size: 1.7rem;
+    background-color: rgba(225, 163, 30, 0.738);
+    text-transform: capitalize;
+    border-radius: 15px;
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 358px;
+}
+.container-one-footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+hr
+{
+    width: 80%;
+    margin: auto;
+}
+.footer-end
+{
+    display: flex;
+}
+.footer-end  h5
+{
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    color: white;
+}
+.footer-cop h5
+{
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    color: white;
+}
+@media screen and (max-width: 700px)
+{
+    header , .sec-four , .container-six , .container-footer , .container-fourd-sec
+    {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+}
